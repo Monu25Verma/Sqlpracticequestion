@@ -1,0 +1,1 @@
+select EmpLane, left(EmpLane, 4) from EmployeeInfo;
