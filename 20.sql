@@ -2,7 +2,7 @@
 
 
 create table if not exists employees(
-employee_id int unique primary key not null,
+employee_id int UNIQUE primary key not null,
 first_name varchar(20) DEFAULT null,
 last_name varchar(20) not NULL,
 email varchar(10) not null,
