@@ -1,0 +1,44 @@
+ #1
+ select (salary * 12) from employee where  name = "king";
+
+ #2
+ select name from employee where profession = 'clerk';
+
+ #3
+ select salary from employee where profession = 'salesman';
+
+ #4
+ select * from employee where salary > 2000;
+
+ #5
+ select * from employee where name = "JONES";
+
+ #6
+ select * from employee where hire_date = '01-JAN-31' or '01-01-31'
+
+ #7
+ select name, salary , (salary * 12) AS Anual_sal where Anual_sal > 12000;
+
+ #8
+ select empno from employee where dept = 30;
+
+ #9
+ select ENAME, HIREDATE from employee where HIREDATE < '1981-01-01';
+
+ #10
+ select * from employee where profession = "Manager";
+
+ #11
+ select name, salary from employee where commison  = 1400;
+
+ #12
+ select * from employee where comission > salary;
+
+ #13
+ select empno from employee where hiredate < '1987-01-01';
+
+ #14
+ select * from employee where profession = 'ANALYST';
+
+ #15
+ select * from employee where salary > 2000;
